@@ -10,6 +10,6 @@ server.use(cors());
 
 server.use(router);
 
-server.listen(process.env.PORT, () => {
+server.listen(process.env.PORT || 5000, () => {
   console.log(chalk.bold.green(`Listening on ${process.env.PORT}`));
 });

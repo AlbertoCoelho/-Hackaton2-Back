@@ -1,9 +1,9 @@
-import { MongoClient } from 'mongodb';
-import dotenv from 'dotenv';
+import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
 dotenv.config();
 
 const mongoClient = new MongoClient(process.env.MONGO_URI);
 await mongoClient.connect();
-const db = mongoClient.db("card_game_store");
+const db = mongoClient.db("Hackaton2");
 
 export default db;
