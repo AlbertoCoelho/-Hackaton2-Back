@@ -10,5 +10,6 @@ const router = Router();
 // router.use(userRouter);
 // router.use(productsRouter);
 // router.use(cartRouter);
+//teste
 
 export default router;
