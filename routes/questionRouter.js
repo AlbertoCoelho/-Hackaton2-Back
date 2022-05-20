@@ -3,11 +3,11 @@ import { getQuestionsJavascript } from "../controllers/productsController.js";
 import { getQuestionsReact } from "../controllers/productsController.js";
 import { getQuestionsMongo } from "../controllers/productsController.js";
 
-const productsRouter = Router();
+const questionRouter = Router();
 
-productsRouter.get("/javascript", getQuestionsJavascript);
-productsRouter.get("/react", getQuestionsReact);
-productsRouter.get("/react", getQuestionsMongo);
+questionRouter.get("/javascript", getQuestionsJavascript);
+questionRouter.get("/react", getQuestionsReact);
+questionRouter.get("/react", getQuestionsMongo);
 
 
-export default productsRouter;
+export default questionRouter;
