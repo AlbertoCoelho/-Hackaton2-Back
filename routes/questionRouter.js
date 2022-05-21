@@ -7,7 +7,7 @@ const questionRouter = Router();
 
 questionRouter.get("/javascript", getQuestionsJavascript);
 questionRouter.get("/react", getQuestionsReact);
-questionRouter.get("/react", getQuestionsMongo);
+questionRouter.get("/mongodb", getQuestionsMongo);
 
 
 export default questionRouter;
