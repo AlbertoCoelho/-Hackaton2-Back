@@ -5,4 +5,4 @@ const gamesRouter = Router();
 
 gamesRouter.get("/", getGames);
 
-export default productsRouter;
+export default gamesRouter;
