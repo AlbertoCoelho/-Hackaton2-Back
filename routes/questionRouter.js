@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { getQuestionsJavascript } from "../controllers/productsController.js";
-import { getQuestionsReact } from "../controllers/productsController.js";
-import { getQuestionsMongo } from "../controllers/productsController.js";
+import { getQuestionsJavascript } from "../controllers/questionController.js";
+import { getQuestionsReact } from "../controllers/questionController.js";
+import { getQuestionsMongo } from "../controllers/questionController.js";
 
 const questionRouter = Router();
 
